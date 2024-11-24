@@ -1,0 +1,39 @@
+# Swift specific
+# Ignora i file del pacchetto Swift
+/.build/
+/.xcuserdata/
+/DerivedData/
+
+# Ignora i file di configurazione sensibili
+.env
+*.xcconfig
+
+# Ignora il file di output delle build
+/build/
+
+# Ignora file temporanei di Xcode
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcsettings
+
+# Ignora i file temporanei di Xcode e Git
+.DS_Store
+Thumbs.db
+
+# Ignora file di log
+*.log
+
+# Ignora file di cache
+*.swp
+*.swo
+
+# Ignora configurazioni di test Xcode
+xcresults/
+Test.xctest/
+
+# Ignora altre configurazioni temporanee
+.idea/
+.vscode/
+
+# Ignora file di backup
+*~.nib
