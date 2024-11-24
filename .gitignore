@@ -4,6 +4,9 @@
 /.xcuserdata/
 /DerivedData/
 
+# Ignora file di configurazione delle scheme di Xcode
+*.xcscheme
+
 # Ignora i file di configurazione sensibili
 .env
 *.xcconfig
